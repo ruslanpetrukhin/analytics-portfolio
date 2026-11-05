@@ -21,7 +21,7 @@
 5. **Marts** — факты и измерения для аналитики.
 6. **BI** — использование подготовленных данных в Power BI и SQL-отчётах.
 
-![DWH Architecture](diagrams/dwh_architecture.md)
+[Посмотреть диаграмму архитектуры DWH](diagrams/dwh_architecture.md)
 
 ## Модель данных
 
@@ -37,7 +37,7 @@
 - `dim_date` — календарь.
 - `dim_order_status` — справочник статусов заказов.
 
-![Star Schema](diagrams/star_schema.md)
+[Посмотреть схему Star Schema](diagrams/star_schema.md)
 
 ## dbt: подход к трансформации
 
