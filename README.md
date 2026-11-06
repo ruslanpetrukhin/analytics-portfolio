@@ -44,7 +44,7 @@ Data Analyst / BI Analyst.
 - Обработка пропусков, дубликатов и некорректных значений.
 - EDA и анализ динамики продаж.
 - ABC/XYZ-анализ товарного ассортимента.
-- Визуализация результатов.
+- Когортный анализ и визуализация результатов.
 
 [Перейти к проекту](./02-python-data-analysis/)
 
@@ -57,9 +57,9 @@ Data Analyst / BI Analyst.
 - Извлечение данных с помощью SQL.
 - Обработка и анализ данных через pandas.
 - Работа с результатами SQL-запросов в Python.
+- Сверка результатов расчётов SQL и pandas.
 
 [Перейти к проекту](./03-python-postgresql/)
-
 
 ### 04. A/B Testing
 
@@ -72,7 +72,7 @@ Excel-калькулятор для оценки результатов A/B-эк
 - Анализ среднего чека, возвратов и отмен.
 - Использование защитных метрик при принятии решения.
 
-[Перейти к проекту](./05-ab-testing/)
+[Перейти к проекту](./04-ab-testing/)
 
 ### 05. Power BI — PostgreSQL Data Analysis
 
@@ -87,7 +87,7 @@ BI-отчёт на основе данных PostgreSQL.
 - MoM-динамика и рейтинг товаров.
 - Исключение отменённых заказов из расчёта выручки.
 
-[Перейти к проекту](./04-power-bi/)
+[Перейти к проекту](./05-power-bi/)
 
 ### 06. Data Warehouse & dbt Architecture
 
@@ -111,10 +111,15 @@ BI-отчёт на основе данных PostgreSQL.
 analytics-portfolio/
 ├── 01-sql-postgresql/
 ├── 02-python-data-analysis/
+│   └── notebooks/
+│       ├── data/
+│       ├── final_python_portfolio.ipynb
+│       └── techmarket_python_case.xlsx
 ├── 03-python-postgresql/
-├── 04-power-bi/
-├── 05-ab-testing/
+├── 04-ab-testing/
+├── 05-power-bi/
 ├── 06-dwh-dbt/
+├── .gitignore
 └── README.md
 ```
 
